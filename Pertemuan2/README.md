@@ -39,9 +39,9 @@ Fitur dimana secara default, variabel tidak boleh bernilai null kecuali diizinka
 ![output NonNullable](img/OutputNonNullable.png) <br><br>
 - Nullable (?) artinya variabel diizinkan untuk bernilai null dengan menambahkan tanda tanya.
 - Contoh Kode:<br>
-![hasil Nullable]()
+![hasil Nullable](img/CodeNullable.png)
 - Output:<br>
-![output Nullable]()<br><br>
+![output Nullable](img/OutputNullable.png)<br><br>
 
 ### Late Variables
 Keyword late digunakan untuk mendeklarasikan variabel non-nullable yang nilainya tidak diberikan saat deklarasi, tetapi akan diinisialisasi sebelum variabel tersebut digunakan.
