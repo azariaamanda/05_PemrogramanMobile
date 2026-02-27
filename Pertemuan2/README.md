@@ -52,6 +52,6 @@ Namun, jika variabel late diakses sebelum diisi, maka akan terjadi runtime error
 ![output late](img/OutputLateVaribles.png) <br><br>
 - late dipakai sebelum diisi:
 - Contoh Kode:<br>
-![hasil latesebelum]()
+![hasil latesebelum](img/CodeLateSebelum.png)
 - Output:<br>
-![output latesebelum]()
+![output latesebelum](img/OutputLateSebelum.png)
