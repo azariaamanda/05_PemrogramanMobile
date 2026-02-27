@@ -47,9 +47,9 @@ Fitur dimana secara default, variabel tidak boleh bernilai null kecuali diizinka
 Keyword late digunakan untuk mendeklarasikan variabel non-nullable yang nilainya tidak diberikan saat deklarasi, tetapi akan diinisialisasi sebelum variabel tersebut digunakan.
 Namun, jika variabel late diakses sebelum diisi, maka akan terjadi runtime error (LateInitializationError).
 - Contoh Kode:<br>
-![hasil late]()
+![hasil late](img/CodeLateVariables.png)
 - Output:<br>
-![output late]() <br><br>
+![output late](img/OutputLateVaribles.png) <br><br>
 - late dipakai sebelum diisi:
 - Contoh Kode:<br>
 ![hasil latesebelum]()
