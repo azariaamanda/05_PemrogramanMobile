@@ -19,6 +19,13 @@ Jawab:<br>
 
 ## Soal 3
 Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gunakan untuk membantu proses pengembangan aplikasi mobile menggunakan framework Flutter.<br>
+Jawab: <br>
+- Dart adalah bahasa utama Flutter, sehingga semua kode aplikasi, widget, logika bisnis, dan plugin ditulis dalam Dart.
+- Kode Dart bisa dikompilasi menjadi JavaScript untuk web dan native ARM/x86 untuk mobile/desktop.
+- Cara kerja Dart menggunakan Dart VM dengan dua mode kompilasi, Just-In-Time (JIT) untuk pengembangan, mendukung hot reload cepat di Flutter dan Ahead-Of-Time (AOT) untuk dipakai saat build rilis, hasilkan kode native yang membuat performa aplikasi Flutter jadi cepat & ringan..
+- Kode Dart dieksekusi mulai dari fungsi main().
+- Dart adalah bahasa Object-Oriented (OOP) dengan konsep class, objek, method, dan fitur seperti inheritance, encapsulation, composition, abstraction dan polymorphism.
+- Operator dasar yang sering dipakai ada aritmatika (+, -, *, /, ~/ untuk integer division, %, -expressio/ untuk negasi yang membalikkan suatu nilai), shortcut operator (+=, -=, *=, /=, dan ~/=), increment/decrement (++ --), equality (==, !=), relational (>, <, dll), dan logical (!expression, &&, ||).
 
 ## Soal 4
 Buatlah penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel !<br>
