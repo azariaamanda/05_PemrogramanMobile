@@ -29,3 +29,29 @@ Jawab: <br>
 
 ## Soal 4
 Buatlah penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel !<br>
+Jawab: <br>
+### Null Safety
+Fitur dimana secara default, variabel tidak boleh bernilai null kecuali diizinkan secara eksplisit. Terdapat 2 jenis variabel yaitu Non-nullable dan Nullable.
+- Non-nullable yang artinya variabel harus memiliki nilai jika tidak maka akan menyebabkan error.
+- Contoh Kode:<br>
+![hasil NonNullable](img/CodeNonNullable.png)
+- Output:<br>
+![output NonNullable](img/OutputNonNullable.png) <br><br>
+- Nullable (?) artinya variabel diizinkan untuk bernilai null dengan menambahkan tanda tanya.
+- Contoh Kode:<br>
+![hasil Nullable]()
+- Output:<br>
+![output Nullable]()<br><br>
+
+### Late Variables
+Keyword late digunakan untuk mendeklarasikan variabel non-nullable yang nilainya tidak diberikan saat deklarasi, tetapi akan diinisialisasi sebelum variabel tersebut digunakan.
+Namun, jika variabel late diakses sebelum diisi, maka akan terjadi runtime error (LateInitializationError).
+- Contoh Kode:<br>
+![hasil late]()
+- Output:<br>
+![output late]() <br><br>
+- late dipakai sebelum diisi:
+- Contoh Kode:<br>
+![hasil latesebelum]()
+- Output:<br>
+![output latesebelum]()
