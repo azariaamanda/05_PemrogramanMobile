@@ -47,8 +47,6 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 - Output:<br>
 ![output]()
 - Penjelasan: <br>
-- Perbaikan:<br>
-![perbaikan]()
 
 ## Tugas Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 1. Ketik atau salin kode program berikut ke dalam fungsi main().
