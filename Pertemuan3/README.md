@@ -42,28 +42,28 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 ![perbaikan](img/Prak2_Langkah2Perbaikan.png)
 3. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 - Tambahan kode: <br>
-![tambahan kode]()<br>
+![tambahan kode](img/Prak2_Langkah3.png)<br>
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
 - Output:<br>
-![output]()
+![output](img/Prak2_Langkah3Output.png)
 - Penjelasan: <br>
 
 ## Tugas Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 1. Ketik atau salin kode program berikut ke dalam fungsi main().
 - Hasil kode: <br>
-![hasil kode]()<br>
+![hasil kode](img/Prak3_Langkah1.png)<br>
 2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 - Output:<br>
-![output]()
+![output](img/Prak3_Langkah2.png)
 - Penjelasan: <br>
 - Perbaikan:<br>
-![perbaikan]()
+![perbaikan](img/Prak3_Langkah2Perbaikan.png)
 3. Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
 - Tambahan kode: <br>
-![tambahan kode]()<br>
+![tambahan kode](img/Prak3_Langkah3Tambahan.png)<br>
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
 - Output:<br>
-![output]()
+![output](img/Prak3_Langkah3Error.png)
 - Penjelasan: <br>
 - Perbaikan:<br>
-![perbaikan]()
+![perbaikan](img/Prak3_Langkah3Perbaikan.png)
