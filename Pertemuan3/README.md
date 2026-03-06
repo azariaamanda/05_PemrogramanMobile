@@ -33,13 +33,13 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 ## Tugas Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
 1. Ketik atau salin kode program berikut ke dalam fungsi main().
 - Hasil kode: <br>
-![hasil kode]()<br>
+![hasil kode](img/Prak2_langkah1.png)<br>
 2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 - Output:<br>
-![output]()
+![output](img/Prak2_Langkah2Error.png)
 - Penjelasan: <br>
 - Perbaikan:<br>
-![perbaikan]()
+![perbaikan](img/Prak2_Langkah2Perbaikan.png)
 3. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 - Tambahan kode: <br>
 ![tambahan kode]()<br>
