@@ -183,37 +183,37 @@ Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan has
 Function dalam bahasa Dart adalah kode yang digunakan untuk menjalankan tugas tertentu dan dapat dipanggil berulang kali tanpa harus menulis ulang kode yang sama yang membantu program menjadi lebih terstruktur, rapi, mudah dibaca. Function dapat memiliki parameter sebagai input dan juga dapat mengembalikan nilai (return value) sebagai output.
 3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
 - Jawab: <br>
-a. Required Positional Parameter: Parameter yang wajib diisi sesuai urutan saat function dipanggil.
+a. Required Positional Parameter: Parameter yang wajib diisi sesuai urutan saat function dipanggil.<br>
 ![hasil kode](img/TugasNo3A.png)<br>
-b. Optional Positional Parameter: Parameter bersifat opsional dan ditulis di dalam tanda kurung siku [].
+b. Optional Positional Parameter: Parameter bersifat opsional dan ditulis di dalam tanda kurung siku [].<br>
 ![hasil kode](img/TugasNo3B.png)<br>
-c. Named Parameter: Parameter yang dipanggil berdasarkan nama parameternya dan ditulis di dalam kurung kurawal {}
+c. Named Parameter: Parameter yang dipanggil berdasarkan nama parameternya dan ditulis di dalam kurung kurawal {}<br>
 ![hasil kode](img/TugasNo3C.png)<br>
-d. Default parameter value: Parameter yang memiliki nilai bawaan (default) jika saat function dipanggil parameter tersebut tidak diisi.
+d. Default parameter value: Parameter yang memiliki nilai bawaan (default) jika saat function dipanggil parameter tersebut tidak diisi.<br>
 ![hasil kode](img/TugasNo3D.png)<br>
 4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
 - Jawab: <br>
-function merupakan first-class object, artinya function diperlakukan seperti objek atau nilai biasa. Function dapat disimpan ke dalam variabel, dikirim sebagai parameter ke function lain, dan dikembalikan dari function lain. Pada contoh di bawah, function salam disimpan ke variabel fungsiSaya, lalu dipanggil seperti function biasa.
+function merupakan first-class object, artinya function diperlakukan seperti objek atau nilai biasa. Function dapat disimpan ke dalam variabel, dikirim sebagai parameter ke function lain, dan dikembalikan dari function lain. Pada contoh di bawah, function salam disimpan ke variabel fungsiSaya, lalu dipanggil seperti function biasa.<br>
 ![hasil kode](img/TugasNo4.png)<br>
 5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
 - Jawab: <br>
-Anonymous Function adalah function tanpa nama. Function ini biasanya digunakan ketika function hanya dipakai sekali atau langsung digunakan pada suatu proses tertentu. Anonymous function sering dipakai dalam list, callback, atau operasi singkat lainnya.
+Anonymous Function adalah function tanpa nama. Function ini biasanya digunakan ketika function hanya dipakai sekali atau langsung digunakan pada suatu proses tertentu. Anonymous function sering dipakai dalam list, callback, atau operasi singkat lainnya.<br>
 ![hasil kode](img/TugasNo5.png)<br>
 6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
 - Jawab: <br>
 a. Lexical Scope: sebuah variabel hanya dapat diakses di dalam ruang lingkup (scope) tempat variabel tersebut dideklarasikan. Function di dalam function dapat mengakses variabel dari function luar. Pada contoh, function tampilNama() dapat mengakses variabel nama karena berada dalam scope yang sama atau lebih luar. <br>
 ![hasil kode](img/TugasNo6A.png)<br>
-b. Lexical Closures: function yang menyimpan akses ke variabel dari scope luar, meskipun function luar tersebut sudah selesai dijalankan. Pada contoh, function yang dikembalikan masih bisa mengakses variabel angka, walaupun function hitung() sudah selesai dijalankan.
+b. Lexical Closures: function yang menyimpan akses ke variabel dari scope luar, meskipun function luar tersebut sudah selesai dijalankan. Pada contoh, function yang dikembalikan masih bisa mengakses variabel angka, walaupun function hitung() sudah selesai dijalankan.<br>
 ![hasil kode](img/TugasNo6B.png)<br>
 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
 - Jawab: <br>
-Secara umum, sebuah function hanya mengembalikan satu nilai. Namun di Dart, bisa membuat function seolah-olah mengembalikan lebih dari satu nilai dengan beberapa cara, misalnya menggunakan List, Map, atau Object.
+Secara umum, sebuah function hanya mengembalikan satu nilai. Namun di Dart, bisa membuat function seolah-olah mengembalikan lebih dari satu nilai dengan beberapa cara, misalnya menggunakan List, Map, atau Object.<br>
 a. Menggunakan List
-Beberapa nilai dimasukkan ke dalam satu list, lalu function mengembalikan list tersebut. Nilai-nilai di dalam list diakses berdasarkan index, misalnya index 0 untuk data pertama dan index 1 untuk data kedua. Function getData() mengembalikan dua data dalam bentuk list, yaitu nama dan NIM. Nilai tersebut kemudian disimpan ke variabel data dan diakses menggunakan index.
+Beberapa nilai dimasukkan ke dalam satu list, lalu function mengembalikan list tersebut. Nilai-nilai di dalam list diakses berdasarkan index, misalnya index 0 untuk data pertama dan index 1 untuk data kedua. Function getData() mengembalikan dua data dalam bentuk list, yaitu nama dan NIM. Nilai tersebut kemudian disimpan ke variabel data dan diakses menggunakan index.<br>
 ![hasil kode](img/TugasNo7A.png)<br>
 b. Menggunakan Map
-Data dikembalikan dalam bentuk pasangan key-value, sehingga setiap nilai memiliki nama kunci masing-masing. Cara ini lebih mudah dipahami karena data dapat diakses menggunakan nama key, bukan index. Function getMahasiswa() mengembalikan data dalam bentuk Map dengan key "nama" dan "nim"
+Data dikembalikan dalam bentuk pasangan key-value, sehingga setiap nilai memiliki nama kunci masing-masing. Cara ini lebih mudah dipahami karena data dapat diakses menggunakan nama key, bukan index. Function getMahasiswa() mengembalikan data dalam bentuk Map dengan key "nama" dan "nim"<br>
 ![hasil kode](img/TugasNo7B.png)<br>
 c. Menggunakan Record
-Record memungkinkan beberapa data dikembalikan sekaligus tanpa harus membuat class, list, atau map terlebih dahulu. Function getBiodata() mengembalikan dua nilai sekaligus dalam bentuk Record, yaitu nama dan NIM. Nilai tersebut dapat diakses menggunakan $1, $2, dan seterusnya sesuai urutan data.
+Record memungkinkan beberapa data dikembalikan sekaligus tanpa harus membuat class, list, atau map terlebih dahulu. Function getBiodata() mengembalikan dua nilai sekaligus dalam bentuk Record, yaitu nama dan NIM. Nilai tersebut dapat diakses menggunakan $1, $2, dan seterusnya sesuai urutan data.<br>
 ![hasil kode](img/TugasNo7C.png)<br>
